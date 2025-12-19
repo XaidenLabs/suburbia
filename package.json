@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node api.js && next dev --turbopack",
+    "build": "node api.js && next build",
+    "start": "node api.js && next start",
     "lint": "next lint",
     "slicemachine": "start-slicemachine"
   },
@@ -20,7 +20,7 @@
     "clsx": "^2.1.1",
     "gsap": "^3.12.5",
     "matter-js": "^0.20.0",
-    "next": "15.0.3",
+    "next": "15.0.7",
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106",
     "react-icons": "^5.4.0",
